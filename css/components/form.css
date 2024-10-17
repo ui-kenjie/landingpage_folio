@@ -1,0 +1,297 @@
+/* Form Section */
+.formsection form {
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 20px;
+    padding: 35px 10px 20px;
+}
+.formsection .row {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form-group.row {
+    margin: 0 0 1rem 0;
+  }
+
+.formLabel {
+    display: none;
+    width: 50%;
+    text-align: right;
+    padding-right: 30px;
+}
+
+.forminput {
+    width: 100%;
+}
+.forminput img {
+    max-width: 350px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 1rem;
+}
+.forminput img.for_captcha {
+    width: 100%;    
+    max-width: 87%;        
+    height: calc(2.5rem + 2px);
+    border-radius: .25rem;
+    margin-bottom: 0;
+}
+
+.forminput input,
+.forminput select,
+.select-teams-select select {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #f6f6f6;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 12px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.forminput select {
+    height: calc(2.5rem + 2px);
+    line-height: 1.25;
+}
+.formButton {
+    text-align: center;
+}
+
+/* FORM / REFRESH BUTTON */
+.refresh-btn {
+    padding: 0;
+    background: transparent;
+    font-size: 1.75rem;
+    line-height: 1;
+    color: #ffffff !important;
+    opacity: 0.65;
+    box-shadow: none;
+    transition: 0.2s all ease-in-out;
+    width: 12%;
+    margin-left: 1%;
+  }
+  .refresh-btn > img {
+    filter: invert(1);
+    opacity: 0.5;
+}
+.refresh-btn:hover > img {
+    filter: invert(1);
+    opacity: 0.9;
+}
+.form-floating>.form-control-plaintext~label, 
+.form-floating>.form-control:focus~label, 
+.form-floating>.form-control:not(:placeholder-shown)~label, 
+.form-floating>.form-select~label {
+    opacity: .65;
+    transform: scale(.75) translateY(-.5rem) translateX(.15rem);
+    margin-left: 4px;
+}
+.form-floating>.form-control-plaintext:focus, 
+.form-floating>.form-control-plaintext:not(:placeholder-shown), 
+.form-floating>.form-control:focus, 
+.form-floating>.form-control:not(:placeholder-shown) {
+    padding-top: 1.25rem;
+    padding-bottom: .625rem;
+}
+.mainContent .formsection {
+    padding: 20px 0 60px;
+}
+.form-note {
+    font-size: 12.8px;
+    margin-top: 15px;
+    line-height: 1.5;
+}
+.formsection > .container {
+    background: rgb(190,16,16);
+    background: linear-gradient(171deg, rgba(190,16,16,1) 0%, rgba(255,0,0,1) 14%, rgba(125,31,32,1) 29%, rgba(190,16,16,1) 50%, rgba(125,31,32,1) 74%, rgba(255,0,0,1) 89%, rgba(125,31,32,1) 100%);
+    padding: 2px 3px;
+    width: 95%;
+    border-radius: 20px;
+    max-width: 350px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+
+/* Floating Labels */
+.forminput.form-floating > label {
+    color: #495057;
+    padding: 0.5rem .75rem;
+    padding-left: 1.5rem;
+}
+
+.form-floating > .form-control {
+    height: calc(2.5rem + 2px);
+    line-height: 1.25;
+}
+
+.form-floating>.form-control-plaintext~label, .form-floating>.form-control:focus~label, .form-floating>.form-control:not(:placeholder-shown)~label, .form-floating>.form-select~label {
+    opacity: .5;
+}
+
+/* Modal Form */
+.submitForm.modal .modal-content {
+    border-radius: 20px;
+}
+
+.submitForm.modal .title {
+    font-size: 1em;
+    text-align: center;
+    font-weight: bold;
+    margin: 1em 0;
+}
+
+.submitForm.modal p {
+    margin-bottom: 0;
+}
+
+.submitForm.modal .forminput input, 
+.submitForm.modal .forminput select {
+  background-color: #fff;
+}
+
+.submitForm-text {
+    margin: 1em 0;
+    font-size: 14px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.submitForm-text a {
+    color: red;
+    text-decoration: underline;
+}
+
+.submitForm.modal .notifyjs-wrapper {
+    position: absolute;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .mainContent .formsection {
+        padding: 60px 0 80px;
+    }
+    .formsection > .container {
+        max-width: 450px;
+        padding: 5px;
+        border-radius: 25px;
+    }
+    .form-note {
+        font-size: 13.5px;
+    }
+    .formsection form {
+        max-width: 630px;
+        padding: 50px 45px 40px;
+    }
+    .formLabel {
+        display: flex;
+        width: 50%;
+        justify-content: flex-end;
+    }
+    .forminput input::placeholder {
+        visibility: hidden;
+    }
+    .forminput input, 
+    .forminput select {
+        margin: 0;
+    }
+    .formsection > div.container > span {
+        font-size: 1.5rem;
+    }
+    .form-floating > .form-control {
+        font-size: 1rem;
+        padding-bottom: 15px;
+    }
+
+
+    /* Modal Form */
+    .submitForm.modal .modal-dialog {
+        max-width: 600px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .forminput input, 
+    .forminput select {
+        font-size: 1.2rem;
+    }
+    .form-floating > .form-control,
+    .forminput select {
+        height: calc(3rem + 2px);
+        line-height: 1.25;
+    }
+    .formsection > .container {
+        padding: 7px;
+    }
+
+    /* Modal Form */
+    .submitForm.modal .modal-dialog {
+        max-width: 650px;
+    }
+    .submitForm.modal .sumitForm-text {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .mainContent .formsection {
+        padding: 40px 0 80px;
+    }
+    .forminput input,
+    .forminput img {
+        margin-left: 0;
+    }
+    .form-note {
+        font-size: 15px;
+    }
+    .form-select {
+        background-size: 20px 16px;
+    }
+    .formsection > .container {
+        max-width: 510px;
+    }
+    .formsection form {
+        padding: 60px 50px 50px;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    /* Modal Form */
+    .submitForm.modal .modal-content {
+        font-size: 20px;
+    }
+
+    .submitForm.modal .modal-dialog {
+        max-width: 745px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .formsection form {
+        max-width: 700px;
+    } 
+    .forminput.form-floating > label {
+        padding: 0.75rem .75rem;
+        padding-left: 1.5rem;
+    }
+    .forminput.form-floating > label {
+        top: -2px;
+        font-size: 1.2rem;
+    }
+  
+    .form-floating > .form-control {
+        font-size: 1.2rem;
+        padding-bottom: 0;
+        padding-top: 15px;
+    }
+}

@@ -1,0 +1,833 @@
+:root {
+    --text-red : #ff0000;
+    --font-600: 600;
+    --font-900: 900;
+}
+/* COLORS */
+.text-red {
+    color: var(--text-red);
+}
+.fw-semiBold {
+    font-weight: var(--font-600);
+}
+/* COMMON */
+li.nav-item.dropdown .dropdown-toggle,
+.dropdown-menu .dropdown-item {
+    line-height: 2;
+}
+.mainContent.weekly2024 {
+    background-image: url(../../images/common/mobile-bg.jpg);
+}
+/* Banner Section*/
+.mainContent .mainBanner {
+    text-align: center;
+    padding: 30px 0;
+}
+.mainContent .mainBanner img {
+    user-select: none;
+    pointer-events: none;
+}
+.mainBanner > div {
+    max-width: 375px;
+    margin: 0 auto;
+}
+.mainBanner .textBanner {
+    margin-top: -50px;
+}
+.textBanner h1 {
+    font-size: 18px;
+}
+.imageBanner, .buttonBanner {
+    padding: 20px 0;
+}
+.textBanner p {
+    font-size: 0.85rem;
+    margin: 0;
+}
+.buttonBanner .default-btn {
+    background: #490707;
+    box-shadow: none;
+    border: 1px solid #910707;
+    font-size: 0.75rem;
+    transition: 0.2s all ease-in-out;
+}
+.buttonBanner .default-btn:hover {
+    background: #910707;
+}
+.banner-float-left {
+    display: none;
+}
+/* Steps Section */
+.mainContent .stepBox {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.stepBox p {
+    text-transform: uppercase;
+    margin: 0;
+}
+.stepcontent-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80px;
+    width: 75%;
+    margin: 45px auto 0;
+    padding: 10px 20px;
+    background: url(../../images/common/steps-text-bg.png) center no-repeat;
+    background-size: 100% 100%;
+    color: #131214;
+    line-height: 1.2;
+}
+.stepBox .position-relative {
+    z-index: 99;
+}
+.steps-art-mobile {
+    position: absolute;
+    top: -25px;
+    left: 0;
+    opacity: 0.85;
+    width: 300px;
+}
+.stepBox p .text-red {
+    white-space: nowrap;
+}
+.stepBox .stepsWrapper {
+    display: none;
+    margin: 50px auto;
+}
+.stepBox .stepsWrapper > div {
+    width: 33.3%;
+}
+.stepBox .stepBox-icons-slider {
+    display: block;
+}
+.stepBox .stepBox-icons-slider .carousel-inner {
+    margin: 2rem auto;
+    padding: 2rem 1rem 0;
+}
+.stepBox .stepBox-icons-slider .carousel-indicators {
+    bottom: -30px;
+    display: none;
+}
+.stepBox img.stepImages {
+    width: 100%;
+    max-width: 150px;
+    -webkit-transform-origin: top center;
+    transform-origin: top center;
+    -webkit-animation: hanging-swing 2s infinite;
+    animation: hanging-swing 2s infinite;
+}
+.steptext-headings {
+    padding-bottom: 50px;
+    display: block;
+}
+@-webkit-keyframes hanging-swing {
+    20% {
+        -webkit-transform: rotate(15deg);
+        transform: rotate(15deg) 
+   }
+    40% {
+        -webkit-transform: rotate(-10deg);
+        transform: rotate(-10deg) 
+   }
+    60% {
+        -webkit-transform: rotate(5deg);
+        transform: rotate(5deg) 
+   }
+    80% {
+        -webkit-transform: rotate(-5deg);
+        transform: rotate(-5deg) 
+   }
+    to {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg) 
+   }
+}
+@keyframes hanging-swing {
+    20% {
+        -webkit-transform: rotate(15deg);
+        transform: rotate(15deg) 
+   }
+    40% {
+        -webkit-transform: rotate(-10deg);
+        transform: rotate(-10deg) 
+   }
+    60% {
+        -webkit-transform: rotate(5deg);
+        transform: rotate(5deg) 
+   }
+    80% {
+        -webkit-transform: rotate(-5deg);
+        transform: rotate(-5deg) 
+   }
+    to {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg) 
+   }
+}
+/* TABLE */
+.luckyDraw-wrapper {
+    max-width: 370px;
+    width: 95%;
+    margin: 0 auto;
+    font-size: 14px;
+    text-align: center;
+}
+.luckyDraw-wrapper h1 {
+    background: rgb(252, 1, 1);
+    background: linear-gradient(0, rgba(133, 29, 30, 1) 0%, rgba(252, 1, 1, 1) 100%);
+    padding: 5px 5px 6px;
+    border: 1px solid #ff0000;
+    border-bottom: none;
+}
+.luckyDraw-wrapper table thead {
+    border: 1px solid #ff0000;
+}
+.luckyDraw-wrapper table tbody tr td {
+    border: 1px solid #ff0000;
+}
+.luckyDraw-wrapper table td {
+    padding: 4px 3px;
+}
+/* TNC */
+.tncSection ol li a.text-red {
+    color: var(--text-red);
+    transition: 0.2s all ease-in-out;
+}
+.tncSection ol li a.text-red:hover {
+    color: #ffaeae;
+    opacity: 1;
+}
+.tnc-btn .sectionTitle {
+    transition: 0.2s all ease-in-out;
+}
+.tnc-btn .sectionTitle:hover {
+    color: #ffaeae;
+}
+ol.yellow-cont li::before {
+    background-color: #fff;
+}
+.tnc-img-mobile {
+    width: 100%;
+    position: relative;
+    margin-bottom: -50px;
+    margin-top: -151px;
+    z-index: 0;
+    pointer-events: none;
+    user-select: none;
+}
+.tncSection .container-fluid {
+    position: relative;
+    z-index: 99;
+}
+.tncSection .collapse .tnc-img-desktop, .tncSection .collapse .tnc-img-mobile {
+    transition: 2s opacity ease-in-out;
+    opacity: 0;
+}
+.tncSection .collapse.show .tnc-img-desktop, .tncSection .collapse.show .tnc-img-mobile {
+    transition: 2s opacity ease-in-out;
+    opacity: 1;
+}
+img.lcfc-img {
+    position: absolute;
+    width: 80px;
+    right: 0;
+    top: 70px;
+}
+img.tshirt-img {
+    position: absolute;
+    top: -25px;
+    width: 100px;
+    left: -25px;
+}
+.img-art-el {
+    cursor: pointer;
+    pointer-events: none;
+}
+.weekly2024 .modal-content {
+    background: #fff;
+    color: #333;
+    padding: 15px 10px;
+    border: 2px solid #bb1011;
+    border-radius: 20px;
+}
+@media screen and (min-width: 414px) {
+   /* MAIN BANNER */
+    .mainBanner .textBanner {
+        margin-top: -55px;
+   }
+    .textBanner h1 {
+        font-size: 22px;
+   }
+    .textBanner p {
+        font-size: 0.95rem;
+        margin: 0;
+   }
+    .buttonBanner .default-btn {
+        font-size: 0.85rem;
+   }
+   /* STEPS */
+    .steptext-headings {
+        font-size: 1.25em;
+   }
+    .stepBox img.stepImages {
+        max-width: 170px;
+   }
+    .steps-art-mobile {
+        top: -35px;
+        left: 0;
+        opacity: 0.8;
+        width: 400px;
+   }
+   /* TNC */
+    .tnc-img-mobile {
+        margin-bottom: -50px;
+        margin-top: -100px;
+        width: 70%;
+        float: left;
+   }
+}
+@media screen and (min-width: 480px) {
+   /* MAIN BANNER */
+    .mainBanner > div {
+        max-width: 414px;
+   }
+    .textBanner h1 {
+        font-size: 25px;
+   }
+    .textBanner p {
+        font-size: 1rem;
+   }
+    .buttonBanner .default-btn {
+        font-size: 0.95rem;
+   }
+   /* TABLE */
+    .luckyDraw-wrapper {
+        max-width: 414px;
+        font-size: 15px;
+   }
+    .luckyDraw-wrapper table td {
+        padding: 5px 10px;
+   }
+   /* STEPS */
+    .stepcontent-wrapper {
+        width: 60%;
+        max-width: 255px;
+   }
+    .stepBox img.stepImages {
+        max-width: 190px;
+   }
+    .steptext-headings {
+        font-size: 1.45em;
+   }
+    .steps-art-mobile {
+        top: -35px;
+        left: 0;
+        opacity: 0.85;
+        width: 450px;
+   }
+   /* How To List */
+    .howTo .howTo-wrapper {
+        max-width: 500px;
+        margin: 0 auto;
+   }
+   /* TNC ART */
+    img.lcfc-img {
+        width: 100px;
+   }
+    img.tshirt-img {
+        width: 110px;
+        top: -65px;
+   }
+}
+@media screen and (min-width: 576px) {
+   /* COMMON */
+    .mainContent.weekly2024 {
+        background-image: url(../../images/common/desktop-bg.jpg);
+   }
+   /* TNC */
+    .tnc-img-desktop {
+        position: absolute;
+        top: 60%;
+        width: 50%;
+        transform: translate(0, -50%);
+   }
+    img.form-art {
+        position: absolute;
+        top: 50%;
+        width: 500px;
+        right: 0;
+        transform: translate(0, -50%);
+   }
+    .steps-art-desktop {
+        top: -35px;
+        left: 0;
+        opacity: 0.85;
+        width: 320px;
+        position: absolute;
+   }
+}
+@media screen and (min-width: 768px) {
+   /* main banner */
+    .mainContent .mainBanner {
+        display: grid;
+        width: 90%;
+        margin: 0 auto;
+        grid-template-columns: 45% 55%;
+        direction: rtl;
+        align-items: center;
+   }
+    .mainBanner > div {
+        direction: ltr;
+   }
+    .banner-float-left {
+        position: absolute;
+   }
+    .mainBanner .textBanner {
+        margin-top: 0;
+   }
+    .buttonBanner .default-btn {
+        font-size: 0.75rem;
+   }
+    .textBanner h1 {
+        font-size: 20px;
+   }
+   /* Steps Section */
+    .mainContent .stepBox {
+        padding: 0;
+   }
+    .steptext-headings {
+        font-size: 1em;
+   }
+    .stepBox .stepsWrapper {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+   }
+    .stepBox .stepBox-icons-slider {
+        display: none;
+   }
+    .steps-art-desktop {
+        top: 325px;
+        width: 380px;
+   }
+    .mainContent section.stepBox {
+        margin-top: -20px;
+        padding-top: 0;
+   }
+    .stepcontent-wrapper {
+        width: 75%;
+        max-width: 255px;
+        font-size: 14px;
+   }
+    .stepBox img.stepImages {
+        max-width: 135px;
+   }
+    .weekly2024 .modal-content {
+        border: 3px solid #bb1011;
+   }
+   /* How To List */
+    .howTo .howTo-wrapper {
+        max-width: 580px;
+        margin: 0 auto;
+   }
+   /* TABLE */
+    .luckyDraw-wrapper {
+        max-width: 575px;
+        font-size: 16px;
+   }
+    .luckyDraw-wrapper table thead {
+        font-size: 1.1em 
+   }
+    .luckyDraw-wrapper table td {
+        padding: 10px 15px;
+   }
+    .luckyDraw-wrapper h1 {
+        padding: 8px 5px 7px;
+   }
+   /* TNC */
+    .tnc-img-desktop {
+        width: 55%;
+        max-width: 350px;
+   }
+   /* TNC ART */
+    img.lcfc-img {
+        width: 120px;
+   }
+    img.tshirt-img {
+        width: 160px;
+        top: -220px;
+   }
+}
+@media screen and (min-width: 991px) {
+   /* COMMON */
+    .fw-semiBold {
+        font-weight: var(--font-900);
+   }
+   /* MAIN BANNER */
+    .mainContent .mainBanner {
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 1%;
+        grid-template-columns: 43% 57%;
+   }
+    .banner-float-left {
+        display: block;
+        max-width: 150px;
+        bottom: 40px;
+        left: -5px;
+   }
+    .textBanner h1 {
+        font-size: 25px;
+   }
+    .textBanner p {
+        font-size: 1.15rem;
+   }
+    .buttonBanner .default-btn {
+        font-size: 0.85rem;
+   }
+    .textBanner p .fw-semiBold {
+        font-size: 1.035em;
+   }
+   /* Steps Section */
+    .steptext-headings {
+        font-size: 1.25em;
+   }
+    .stepBox .stepsWrapper {
+        max-width: 850px;
+        align-items: flex-end;
+   }
+    .stepBox img.stepImages {
+        max-width: 165px;
+   }
+    .steps-art-desktop {
+        top: 93%;
+        left: 0;
+        opacity: 0.85;
+        width: 400px;
+        position: absolute;
+   }
+   /* TABLE */
+    .luckyDraw-wrapper {
+        max-width: 600px;
+        font-size: 17px;
+   }
+    .luckyDraw-wrapper table thead {
+        white-space: nowrap;
+   }
+    .luckyDraw-wrapper table td {
+        padding: 12px 15px;
+   }
+    .luckyDraw-wrapper h1 {
+        padding: 10px 5px 9px;
+        font-size: 1.75em;
+   }
+}
+@media screen and (min-width: 1100px) {
+   /* MAIN BANNER */
+    .mainBanner > div {
+        max-width: 480px;
+   }
+    .buttonBanner .default-btn {
+        max-width: 200px;
+   }
+    .banner-float-left {
+        max-width: 150px;
+        bottom: 40px;
+        left: 10px;
+   }
+}
+@media screen and (min-width: 1200px) {
+   /* MAIN BANNER */
+    .mainContent .mainBanner {
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 1%;
+        grid-template-columns: 48% 52%;
+   }
+    .mainBanner > div {
+        max-width: 100%;
+   }
+    .imageBanner img {
+        max-width: 1100px;
+   }
+    .banner-float-left {
+        max-width: 175px;
+        bottom: 15%;
+        left: 10px;
+   }
+    .textBanner h1 {
+        font-size: 32px;
+   }
+    .textBanner p {
+        font-size: 1.45rem;
+   }
+    .buttonBanner .default-btn {
+        font-size: 0.95rem;
+   }
+    .textBanner p .fw-semiBold {
+        font-size: 1.035em;
+   }
+    .buttonBanner .default-btn {
+        max-width: 210px;
+   }
+    .banner-Content {
+        padding-bottom: 15%;
+   }
+   /* Steps Section */
+    .mainContent .stepBox {
+        padding: 50px 0;
+   }
+    .stepBox .stepsWrapper {
+        max-width: 1000px;
+   }
+    .steptext-headings {
+        font-size: 1.1em;
+   }
+    .stepcontent-wrapper {
+        width: 60%;
+        font-size: 15px;
+        min-height: 85px;
+        font-weight: 600;
+   }
+    .steps-art-desktop {
+        top: 80%;
+        left: 0;
+        opacity: 0.85;
+        width: 480px;
+        position: absolute;
+   }
+    img.form-art {
+        width: 570px;
+   }
+   /* TNC ART */
+    img.tshirt-img {
+        width: 215px;
+        top: -445px;
+   }
+    img.lcfc-img {
+        width: 180px;
+   }
+    .weekly2024 .modal-content {
+        border: 4px solid #bb1011;
+   }
+}
+@media screen and (min-width: 1366px) {
+   /* MAIN BANNER */
+    .textBanner h1 {
+        font-size: 36px;
+        margin-bottom: 22px;
+   }
+    .textBanner p {
+        font-size: 1.65rem;
+   }
+   /*Steps Section */
+    .mainContent .stepBox {
+        margin-top: -150px;
+        padding-top: 0;
+   }
+   /* TNC */
+    .tnc-img-desktop {
+        width: 100%;
+        max-width: 450px;
+   }
+}
+@media screen and (min-width: 1440px) {
+   /* MAIN BANNER */
+    .mainContent .mainBanner {
+        width: 100%;
+        padding-left: 12%;
+        padding-right: 3%;
+        grid-template-columns: 45% 55%;
+   }
+    .textBanner h1 {
+        font-size: 38px;
+        margin-bottom: 28px;
+   }
+    .textBanner p {
+        font-size: 1.85rem;
+   }
+    .buttonBanner .default-btn {
+        max-width: 235px;
+        padding: 13px 10px;
+        font-size: 1.15rem;
+   }
+    .banner-float-left {
+        max-width: 200px;
+        bottom: 12%;
+        left: 15px;
+   }
+    .banner-Content {
+        padding-bottom: 5%;
+   }
+   /*Common, Steps Section */
+    body {
+        font-size: 22px;
+   }
+    .howTo .howTo-wrapper {
+        max-width: 700px;
+   }
+    .howTo .howTo-wrapper ol li {
+        margin-bottom: 15px;
+   }
+    img.form-art {
+        width: 600px;
+   }
+   /* Steps Section */
+    .stepBox .stepsWrapper {
+        max-width: 1100px;
+   }
+    .mainContent section.stepBox {
+        margin-top: 70px;
+        padding-top: 0;
+   }
+    .stepcontent-wrapper {
+        width: 65%;
+        font-size: 16px;
+        min-height: 85px;
+   }
+    .stepBox img.stepImages {
+        max-width: 190px;
+   }
+    .steps-art-desktop {
+        width: 550px;
+   }
+   /* TABLE */
+    .luckyDraw-wrapper {
+        max-width: 700px;
+        font-size: 18px;
+   }
+    .luckyDraw-wrapper table td {
+        padding: 15px 15px;
+   }
+    .luckyDraw-wrapper h1 {
+        padding: 15px 5px 14px;
+        font-size: 1.85em;
+   }
+   /* TNC ART */
+    img.tshirt-img {
+        width: 250px;
+        top: -480px;
+        left: 20px;
+   }
+    img.lcfc-img {
+        width: 220px;
+        right: 30px;
+        top: 150px;
+   }
+}
+@media screen and (min-width: 1680px) {
+   /* MAIN BANNER */
+    .mainContent .mainBanner {
+        width: 95%;
+        padding-left: 12%;
+        padding-right: 4%;
+        grid-template-columns: 45% 55%;
+        margin-top: 30px;
+   }
+    .textBanner h1 {
+        font-size: 40px;
+        margin-bottom: 28px;
+   }
+    .textBanner p {
+        font-size: 1.95rem;
+   }
+    .buttonBanner .default-btn {
+        max-width: 265px;
+        padding: 15px 10px;
+        font-size: 1.25rem;
+   }
+    .banner-float-left {
+        max-width: 210px;
+        bottom: 5%;
+        left: 10px;
+   }
+   /* TABLE */
+    .luckyDraw-wrapper {
+        max-width: 800px;
+        font-size: 20px;
+   }
+    .luckyDraw-wrapper table td {
+        padding: 15px 15px;
+   }
+    .luckyDraw-wrapper h1 {
+        padding: 15px 5px 14px;
+        font-size: 1.85em;
+   }
+    .howTo .howTo-wrapper ol li {
+        margin-bottom: 20px;
+   }
+   /* Steps Section */
+    .steptext-headings {
+        font-size: 1.2em;
+   }
+    .stepBox .stepsWrapper {
+        max-width: 1200px;
+   }
+    .mainContent section.stepBox {
+        margin-top: 80px;
+   }
+    .stepcontent-wrapper {
+        width: 70%;
+        font-size: 18px;
+        min-height: 90px;
+        max-width: 280px;
+   }
+    .stepBox img.stepImages {
+        max-width: 210px;
+   }
+    .steps-art-desktop {
+        width: 600px;
+   }
+   /* TNC ART */
+    img.tshirt-img {
+        width: 270px;
+        top: -450px;
+        left: 50px;
+   }
+    img.lcfc-img {
+        width: 250px;
+        right: 70px;
+        top: 200px;
+   }
+    img.form-art {
+        width: 700px;
+   }
+}
+@media screen and (min-width: 1900px) {
+   /* MAIN BANNER */
+    .mainContent .mainBanner {
+        width: 98%;
+        padding-left: 12%;
+        padding-right: 4%;
+        grid-template-columns: 45% 55%;
+        margin-top: 40px;
+   }
+    .textBanner h1 {
+        font-size: 45px;
+        margin-bottom: 40px;
+   }
+    .textBanner p {
+        font-size: 2.15rem;
+   }
+    .buttonBanner .default-btn {
+        max-width: 290px;
+        padding: 15px 10px;
+        font-size: 1.35rem;
+   }
+    .banner-float-left {
+        max-width: 240px;
+        bottom: 2%;
+        left: 15px;
+   }
+    .banner-Content {
+        padding-bottom: 10%;
+   }
+    .steps-art-desktop {
+        top: 60%;
+        width: 670px;
+   }
+}
